@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- Required elements-->
+        <id>Naxam.AdyenCSE.iOS</id>
+        <version>1.1.1</version>
+        <authors>NAXAM CO.,LTD</authors>
+        <owners>NAXAM CO.,LTD</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <title>Naxam - AdyenCSE for iOS</title>
+        <summary>Xamarin.iOS binding Library - AdyenCSE</summary>
+        <description>Xamarin.iOS binding Library - AdyenCSE</description>
+        <releaseNotes>AdyenCSE v1.1.1</releaseNotes>
+        <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+        <iconUrl>https://avatars3.githubusercontent.com/u/9713612</iconUrl>
+        <projectUrl>https://github.com/NAXAM/adyen-xamarin-ios</projectUrl>
+        <copyright>Copyright (c) 2018 NAXAM</copyright>
+        <tags>Xamarin.iOS, adyen,  adyen-ios</tags>
+        <dependencies>
+            <!-- <dependency id="Naxam.AdyenCSE.iOS" version="1.1.1" /> -->
+        </dependencies>
+    </metadata>
+    <!-- Optional 'files' node -->
+    <files>
+        <file src="Naxam.AdyenCSE.iOS/bin/Release/Naxam.AdyenCSE.iOS.dll" target="lib/Xamarin.iOS10/Naxam.AdyenCSE.iOS.dll" />
+    </files>
+</package>
